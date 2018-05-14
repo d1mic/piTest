@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.dimaria95.testapp.LoginTest">
+        <methods>
+          <include name="testPositiveLogin"/>
+          <include name="setupLogin"/>
+          <include name="tearDown"/>
+          <include name="testNegativeLogin"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.dimaria95.testapp.LoginTest -->
+      <class name="com.dimaria95.testapp.CheckoutTest">
+        <methods>
+          <include name="initEmptyCart"/>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.dimaria95.testapp.CheckoutTest -->
+      <class name="com.dimaria95.testapp.AddToCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="initEmptyCart"/>
+        </methods>
+      </class> <!-- com.dimaria95.testapp.AddToCartTest -->
+      <class name="com.dimaria95.testapp.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="goHome"/>
+        </methods>
+      </class> <!-- com.dimaria95.testapp.SearchTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
