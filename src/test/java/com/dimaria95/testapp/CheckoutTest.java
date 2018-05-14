@@ -64,10 +64,10 @@ public class CheckoutTest extends BaseTest {
 		Assert.assertEquals(itemPrice, checkoutPrice);
 
 		// proceed to shipping page and check if title,email,and payment are available
-		shippingPage = checkPage.goToShippingGuest("dimic.nikola@gmail.com", "Nikola", "Dimic", "Street 123", "London",
-				"GX11 1AA");
+		shippingPage = checkPage.goToShippingGuest(m_email, m_name,m_lastname,m_adress, m_city,
+				m_code);
 		Assert.assertTrue(shippingPage.checkPageTitle());
-		Assert.assertTrue(shippingPage.checkEmail("dimic.nikola@gmail.com"));
+		Assert.assertTrue(shippingPage.checkEmail(m_email));
 		Assert.assertTrue(shippingPage.checkPaymentAvailability());
 
 		// Go back to main page 

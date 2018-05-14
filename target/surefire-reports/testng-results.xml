@@ -2,72 +2,72 @@
 <testng-results skipped="0" failed="2" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="281127" started-at="2018-05-14T12:22:37Z" finished-at="2018-05-14T12:27:18Z">
+  <suite name="Command line suite" duration-ms="274839" started-at="2018-05-14T13:08:49Z" finished-at="2018-05-14T13:13:24Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="281127" started-at="2018-05-14T12:22:37Z" finished-at="2018-05-14T12:27:18Z">
+    <test name="Command line test" duration-ms="274839" started-at="2018-05-14T13:08:49Z" finished-at="2018-05-14T13:13:24Z">
       <class name="com.dimaria95.testapp.CheckoutTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="setupTest" is-config="true" duration-ms="25986" started-at="2018-05-14T14:24:08Z" finished-at="2018-05-14T14:24:34Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="setupTest" is-config="true" duration-ms="18576" started-at="2018-05-14T15:10:25Z" finished-at="2018-05-14T15:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="initEmptyCart" is-config="true" duration-ms="2776" started-at="2018-05-14T14:24:34Z" finished-at="2018-05-14T14:24:37Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="initEmptyCart" is-config="true" duration-ms="4546" started-at="2018-05-14T15:10:43Z" finished-at="2018-05-14T15:10:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="checkoutFlowTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="checkoutFlowTest" duration-ms="17639" started-at="2018-05-14T14:24:37Z" finished-at="2018-05-14T14:24:55Z">
+        <test-method status="PASS" signature="checkoutFlowTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="checkoutFlowTest" duration-ms="15788" started-at="2018-05-14T15:10:48Z" finished-at="2018-05-14T15:11:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutFlowTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="875" started-at="2018-05-14T14:24:55Z" finished-at="2018-05-14T14:24:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="1095" started-at="2018-05-14T15:11:04Z" finished-at="2018-05-14T15:11:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dimaria95.testapp.CheckoutTest -->
       <class name="com.dimaria95.testapp.SearchTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="setupTest" is-config="true" duration-ms="15414" started-at="2018-05-14T14:26:46Z" finished-at="2018-05-14T14:27:01Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="setupTest" is-config="true" duration-ms="9728" started-at="2018-05-14T15:12:59Z" finished-at="2018-05-14T15:13:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="categorySearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="categorySearch" duration-ms="3525" started-at="2018-05-14T14:27:01Z" finished-at="2018-05-14T14:27:05Z">
+        <test-method status="PASS" signature="categorySearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="categorySearch" duration-ms="3305" started-at="2018-05-14T15:13:08Z" finished-at="2018-05-14T15:13:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categorySearch -->
-        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1780" started-at="2018-05-14T14:27:05Z" finished-at="2018-05-14T14:27:07Z">
+        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1556" started-at="2018-05-14T15:13:12Z" finished-at="2018-05-14T15:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method status="PASS" signature="invalidSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="invalidSearch" duration-ms="2493" started-at="2018-05-14T14:27:07Z" finished-at="2018-05-14T14:27:09Z">
+        <test-method status="PASS" signature="invalidSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="invalidSearch" duration-ms="2374" started-at="2018-05-14T15:13:13Z" finished-at="2018-05-14T15:13:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidSearch -->
-        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1985" started-at="2018-05-14T14:27:09Z" finished-at="2018-05-14T14:27:11Z">
+        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1738" started-at="2018-05-14T15:13:16Z" finished-at="2018-05-14T15:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method status="PASS" signature="priceSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="priceSearch" duration-ms="4044" started-at="2018-05-14T14:27:11Z" finished-at="2018-05-14T14:27:15Z">
+        <test-method status="PASS" signature="priceSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="priceSearch" duration-ms="3912" started-at="2018-05-14T15:13:17Z" finished-at="2018-05-14T15:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceSearch -->
-        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1608" started-at="2018-05-14T14:27:15Z" finished-at="2018-05-14T14:27:17Z">
+        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1579" started-at="2018-05-14T15:13:21Z" finished-at="2018-05-14T15:13:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="tearDown" is-config="true" duration-ms="916" started-at="2018-05-14T14:27:17Z" finished-at="2018-05-14T14:27:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="tearDown" is-config="true" duration-ms="1015" started-at="2018-05-14T15:13:23Z" finished-at="2018-05-14T15:13:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dimaria95.testapp.SearchTest -->
       <class name="com.dimaria95.testapp.LoginTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="setupTest" is-config="true" duration-ms="15950" started-at="2018-05-14T14:24:56Z" finished-at="2018-05-14T14:25:12Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="setupTest" is-config="true" duration-ms="18566" started-at="2018-05-14T15:11:05Z" finished-at="2018-05-14T15:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setupLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="setupLogin" is-config="true" duration-ms="0" started-at="2018-05-14T14:25:12Z" finished-at="2018-05-14T14:25:12Z">
+        <test-method status="PASS" signature="setupLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="setupLogin" is-config="true" duration-ms="1" started-at="2018-05-14T15:11:23Z" finished-at="2018-05-14T15:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method status="FAIL" signature="testNegativeLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="testNegativeLogin" duration-ms="63634" started-at="2018-05-14T14:25:12Z" finished-at="2018-05-14T14:26:15Z">
+        <test-method status="FAIL" signature="testNegativeLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="testNegativeLogin" duration-ms="64626" started-at="2018-05-14T15:11:23Z" finished-at="2018-05-14T15:12:28Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="customer_login"]/div[2]/ul/li' (tried for 30 second(s) with 500 milliseconds interval)]]>
@@ -77,7 +77,7 @@
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
 	at com.dimaria95.testapp.LoginPage.isErrorMsgDisplayed(LoginPage.java:46)
-	at com.dimaria95.testapp.LoginTest.testNegativeLogin(LoginTest.java:64)
+	at com.dimaria95.testapp.LoginTest.testNegativeLogin(LoginTest.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -117,8 +117,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'Nikolas-MacBook-Pro.local', ip: 'fe80:0:0:0:c03:e76f:1948:3b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9310, moz:profile: /tmp/rust_mozprofile.r1U6ry..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: e1d44b2b-8f50-49d6-8185-cd3...}
-Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10874, moz:profile: /tmp/rust_mozprofile.Plbhma..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: f07f7fba-5922-47f2-afc2-e75...}
+Session ID: f07f7fba-5922-47f2-afc2-e75fdb6fa133
 *** Element info: {Using=xpath, value=//*[@id="customer_login"]/div[2]/ul/li}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -148,7 +148,11 @@ Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNegativeLogin -->
-        <test-method status="FAIL" signature="testPositiveLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="testPositiveLogin" duration-ms="29996" started-at="2018-05-14T14:26:15Z" finished-at="2018-05-14T14:26:45Z">
+        <test-method status="PASS" signature="setupLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="setupLogin" is-config="true" duration-ms="1" started-at="2018-05-14T15:12:28Z" finished-at="2018-05-14T15:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogin -->
+        <test-method status="FAIL" signature="testPositiveLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="testPositiveLogin" duration-ms="29996" started-at="2018-05-14T15:12:28Z" finished-at="2018-05-14T15:12:58Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //*[@id="the-pi-hut"]/header/div/div/div[2]/div/ul/li[3]
@@ -156,8 +160,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'Nikolas-MacBook-Pro.local', ip: 'fe80:0:0:0:c03:e76f:1948:3b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9310, moz:profile: /tmp/rust_mozprofile.r1U6ry..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: e1d44b2b-8f50-49d6-8185-cd3...}
-Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10874, moz:profile: /tmp/rust_mozprofile.Plbhma..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: f07f7fba-5922-47f2-afc2-e75...}
+Session ID: f07f7fba-5922-47f2-afc2-e75fdb6fa133
 *** Element info: {Using=xpath, value=//*[@id="the-pi-hut"]/header/div/div/div[2]/div/ul/li[3]}]]>
             </message>
             <full-stacktrace>
@@ -166,8 +170,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'Nikolas-MacBook-Pro.local', ip: 'fe80:0:0:0:c03:e76f:1948:3b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9310, moz:profile: /tmp/rust_mozprofile.r1U6ry..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: e1d44b2b-8f50-49d6-8185-cd3...}
-Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10874, moz:profile: /tmp/rust_mozprofile.Plbhma..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: f07f7fba-5922-47f2-afc2-e75...}
+Session ID: f07f7fba-5922-47f2-afc2-e75fdb6fa133
 *** Element info: {Using=xpath, value=//*[@id="the-pi-hut"]/header/div/div/div[2]/div/ul/li[3]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -186,7 +190,7 @@ Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy9.click(Unknown Source)
 	at com.dimaria95.testapp.HomePage.goToLoginPage(HomePage.java:38)
-	at com.dimaria95.testapp.LoginTest.testPositiveLogin(LoginTest.java:35)
+	at com.dimaria95.testapp.LoginTest.testPositiveLogin(LoginTest.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -227,53 +231,49 @@ Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPositiveLogin -->
-        <test-method status="PASS" signature="setupLogin()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="setupLogin" is-config="true" duration-ms="0" started-at="2018-05-14T14:26:15Z" finished-at="2018-05-14T14:26:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="tearDown" is-config="true" duration-ms="889" started-at="2018-05-14T14:26:45Z" finished-at="2018-05-14T14:26:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.LoginTest@1324409e]" name="tearDown" is-config="true" duration-ms="769" started-at="2018-05-14T15:12:58Z" finished-at="2018-05-14T15:12:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dimaria95.testapp.LoginTest -->
       <class name="com.dimaria95.testapp.AddToCartTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="setupTest" is-config="true" duration-ms="21387" started-at="2018-05-14T14:22:37Z" finished-at="2018-05-14T14:22:58Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="setupTest" is-config="true" duration-ms="20979" started-at="2018-05-14T15:08:49Z" finished-at="2018-05-14T15:09:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="5561" started-at="2018-05-14T14:22:58Z" finished-at="2018-05-14T14:23:04Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="5568" started-at="2018-05-14T15:09:10Z" finished-at="2018-05-14T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="AddMultipleDifferentItems()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="AddMultipleDifferentItems" duration-ms="15924" started-at="2018-05-14T14:23:04Z" finished-at="2018-05-14T14:23:20Z">
+        <test-method status="PASS" signature="AddMultipleDifferentItems()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="AddMultipleDifferentItems" duration-ms="14528" started-at="2018-05-14T15:09:16Z" finished-at="2018-05-14T15:09:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddMultipleDifferentItems -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="10139" started-at="2018-05-14T14:23:20Z" finished-at="2018-05-14T14:23:30Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="9639" started-at="2018-05-14T15:09:30Z" finished-at="2018-05-14T15:09:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="AddMultipleSameItemsToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="AddMultipleSameItemsToCart" duration-ms="7960" started-at="2018-05-14T14:23:30Z" finished-at="2018-05-14T14:23:38Z">
+        <test-method status="PASS" signature="AddMultipleSameItemsToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="AddMultipleSameItemsToCart" duration-ms="9877" started-at="2018-05-14T15:09:40Z" finished-at="2018-05-14T15:09:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddMultipleSameItemsToCart -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="6271" started-at="2018-05-14T14:23:38Z" finished-at="2018-05-14T14:23:44Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="6363" started-at="2018-05-14T15:09:50Z" finished-at="2018-05-14T15:09:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="AddOneItemToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="AddOneItemToCart" duration-ms="9282" started-at="2018-05-14T14:23:44Z" finished-at="2018-05-14T14:23:53Z">
+        <test-method status="PASS" signature="AddOneItemToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="AddOneItemToCart" duration-ms="9279" started-at="2018-05-14T15:09:56Z" finished-at="2018-05-14T15:10:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddOneItemToCart -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="4868" started-at="2018-05-14T14:23:53Z" finished-at="2018-05-14T14:23:58Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="initEmptyCart" is-config="true" duration-ms="6907" started-at="2018-05-14T15:10:05Z" finished-at="2018-05-14T15:10:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="removeOneItem()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="removeOneItem" duration-ms="9154" started-at="2018-05-14T14:23:58Z" finished-at="2018-05-14T14:24:07Z">
+        <test-method status="PASS" signature="removeOneItem()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="removeOneItem" duration-ms="11512" started-at="2018-05-14T15:10:12Z" finished-at="2018-05-14T15:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeOneItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="tearDown" is-config="true" duration-ms="1036" started-at="2018-05-14T14:24:07Z" finished-at="2018-05-14T14:24:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@2c6a3f77]" name="tearDown" is-config="true" duration-ms="992" started-at="2018-05-14T15:10:24Z" finished-at="2018-05-14T15:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

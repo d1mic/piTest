@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.dimaria95.testapp.SearchTest" time="8.729" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.dimaria95.testapp.SearchTest" time="10.564" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.dimaria95.testapp.SearchTest" name="categorySearch" time="2.782"/>
-  <testcase classname="com.dimaria95.testapp.SearchTest" name="invalidSearch" time="2.234"/>
-  <testcase classname="com.dimaria95.testapp.SearchTest" name="priceSearch" time="3.713"/>
+  <testcase classname="com.dimaria95.testapp.SearchTest" name="categorySearch" time="3.585"/>
+  <testcase classname="com.dimaria95.testapp.SearchTest" name="invalidSearch" time="2.876"/>
+  <testcase classname="com.dimaria95.testapp.SearchTest" name="priceSearch" time="4.103"/>
 </testsuite>

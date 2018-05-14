@@ -185,14 +185,14 @@
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
 	at com.dimaria95.testapp.LoginPage.isErrorMsgDisplayed(LoginPage.java:46)
-	at com.dimaria95.testapp.LoginTest.testNegativeLogin(LoginTest.java:64)
+	at com.dimaria95.testapp.LoginTest.testNegativeLogin(LoginTest.java:65)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;customer_login&quot;]/div[2]/ul/li
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;Nikolas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c03:e76f:1948:3b3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9310, moz:profile: /tmp/rust_mozprofile.r1U6ry..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: e1d44b2b-8f50-49d6-8185-cd3...}
-Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10874, moz:profile: /tmp/rust_mozprofile.Plbhma..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: f07f7fba-5922-47f2-afc2-e75...}
+Session ID: f07f7fba-5922-47f2-afc2-e75fdb6fa133
 *** Element info: {Using=xpath, value=//*[@id=&quot;customer_login&quot;]/div[2]/ul/li}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -226,8 +226,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;Nikolas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c03:e76f:1948:3b3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9310, moz:profile: /tmp/rust_mozprofile.r1U6ry..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: e1d44b2b-8f50-49d6-8185-cd3...}
-Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10874, moz:profile: /tmp/rust_mozprofile.Plbhma..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: f07f7fba-5922-47f2-afc2-e75...}
+Session ID: f07f7fba-5922-47f2-afc2-e75fdb6fa133
 *** Element info: {Using=xpath, value=//*[@id=&quot;the-pi-hut&quot;]/header/div/div/div[2]/div/ul/li[3]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -242,7 +242,7 @@ Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy9.click(Unknown Source)
 	at com.dimaria95.testapp.HomePage.goToLoginPage(HomePage.java:38)
-	at com.dimaria95.testapp.LoginTest.testPositiveLogin(LoginTest.java:35)
+	at com.dimaria95.testapp.LoginTest.testPositiveLogin(LoginTest.java:36)
 ... Removed 38 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -388,7 +388,7 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testNegativeLogin')
 data.setCell(0, 2, 'com.dimaria95.testapp.LoginTest')
-data.setCell(0, 3, 63634);
+data.setCell(0, 3, 64626);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testPositiveLogin')
 data.setCell(1, 2, 'com.dimaria95.testapp.LoginTest')
@@ -396,35 +396,35 @@ data.setCell(1, 3, 29996);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkoutFlowTest')
 data.setCell(2, 2, 'com.dimaria95.testapp.CheckoutTest')
-data.setCell(2, 3, 17639);
+data.setCell(2, 3, 15788);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'AddMultipleDifferentItems')
 data.setCell(3, 2, 'com.dimaria95.testapp.AddToCartTest')
-data.setCell(3, 3, 15924);
+data.setCell(3, 3, 14528);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'AddOneItemToCart')
+data.setCell(4, 1, 'removeOneItem')
 data.setCell(4, 2, 'com.dimaria95.testapp.AddToCartTest')
-data.setCell(4, 3, 9282);
+data.setCell(4, 3, 11512);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'removeOneItem')
+data.setCell(5, 1, 'AddMultipleSameItemsToCart')
 data.setCell(5, 2, 'com.dimaria95.testapp.AddToCartTest')
-data.setCell(5, 3, 9154);
+data.setCell(5, 3, 9877);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'AddMultipleSameItemsToCart')
+data.setCell(6, 1, 'AddOneItemToCart')
 data.setCell(6, 2, 'com.dimaria95.testapp.AddToCartTest')
-data.setCell(6, 3, 7960);
+data.setCell(6, 3, 9279);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'priceSearch')
 data.setCell(7, 2, 'com.dimaria95.testapp.SearchTest')
-data.setCell(7, 3, 4044);
+data.setCell(7, 3, 3912);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'categorySearch')
 data.setCell(8, 2, 'com.dimaria95.testapp.SearchTest')
-data.setCell(8, 3, 3525);
+data.setCell(8, 3, 3305);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'invalidSearch')
 data.setCell(9, 2, 'com.dimaria95.testapp.SearchTest')
-data.setCell(9, 3, 2493);
+data.setCell(9, 3, 2374);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
@@ -462,124 +462,124 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initEmptyCart</span>
-                <span class="method-start">21396 ms</span>
+                <span class="method-start">20982 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddMultipleDifferentItems</span>
-                <span class="method-start">26957 ms</span>
+                <span class="method-start">26550 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initEmptyCart</span>
-                <span class="method-start">42882 ms</span>
+                <span class="method-start">41079 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddMultipleSameItemsToCart</span>
-                <span class="method-start">53021 ms</span>
+                <span class="method-start">50718 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initEmptyCart</span>
-                <span class="method-start">60982 ms</span>
+                <span class="method-start">60596 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddOneItemToCart</span>
-                <span class="method-start">67253 ms</span>
+                <span class="method-start">66959 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initEmptyCart</span>
-                <span class="method-start">76535 ms</span>
+                <span class="method-start">76239 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeOneItem</span>
-                <span class="method-start">81403 ms</span>
+                <span class="method-start">83146 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">90557 ms</span>
+                <span class="method-start">94659 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.dimaria95.testapp.CheckoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupTest</span>
-                <span class="method-start">91594 ms</span>
+                <span class="method-start">95651 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initEmptyCart</span>
-                <span class="method-start">117581 ms</span>
+                <span class="method-start">114227 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkoutFlowTest</span>
-                <span class="method-start">120357 ms</span>
+                <span class="method-start">118773 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">137997 ms</span>
+                <span class="method-start">134562 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.dimaria95.testapp.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupTest</span>
-                <span class="method-start">138872 ms</span>
+                <span class="method-start">135657 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin</span>
-                <span class="method-start">154822 ms</span>
+                <span class="method-start">154223 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testNegativeLogin</span>
-                <span class="method-start">154822 ms</span>
+                <span class="method-start">154224 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setupLogin</span>
-                <span class="method-start">218462 ms</span>
+                <span class="method-start">218854 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testPositiveLogin</span>
-                <span class="method-start">218462 ms</span>
+                <span class="method-start">218855 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">248460 ms</span>
+                <span class="method-start">248852 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.dimaria95.testapp.SearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupTest</span>
-                <span class="method-start">249349 ms</span>
+                <span class="method-start">249622 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">categorySearch</span>
-                <span class="method-start">264764 ms</span>
+                <span class="method-start">259350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">goHome</span>
-                <span class="method-start">268289 ms</span>
+                <span class="method-start">262655 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">invalidSearch</span>
-                <span class="method-start">270069 ms</span>
+                <span class="method-start">264211 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">goHome</span>
-                <span class="method-start">272562 ms</span>
+                <span class="method-start">266585 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">priceSearch</span>
-                <span class="method-start">274548 ms</span>
+                <span class="method-start">268323 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">goHome</span>
-                <span class="method-start">278593 ms</span>
+                <span class="method-start">272235 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">280201 ms</span>
+                <span class="method-start">273814 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

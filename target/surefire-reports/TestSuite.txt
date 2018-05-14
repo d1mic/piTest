@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 306.663 sec <<< FAILURE!
-testNegativeLogin(com.dimaria95.testapp.LoginTest)  Time elapsed: 63.64 sec  <<< FAILURE!
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 275.604 sec <<< FAILURE!
+testNegativeLogin(com.dimaria95.testapp.LoginTest)  Time elapsed: 64.632 sec  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="customer_login"]/div[2]/ul/li' (tried for 30 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
 	at com.dimaria95.testapp.LoginPage.isErrorMsgDisplayed(LoginPage.java:46)
-	at com.dimaria95.testapp.LoginTest.testNegativeLogin(LoginTest.java:64)
+	at com.dimaria95.testapp.LoginTest.testNegativeLogin(LoginTest.java:65)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="customer_login"]/div[2]/ul/li
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'Nikolas-MacBook-Pro.local', ip: 'fe80:0:0:0:c03:e76f:1948:3b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9310, moz:profile: /tmp/rust_mozprofile.r1U6ry..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: e1d44b2b-8f50-49d6-8185-cd3...}
-Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10874, moz:profile: /tmp/rust_mozprofile.Plbhma..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: f07f7fba-5922-47f2-afc2-e75...}
+Session ID: f07f7fba-5922-47f2-afc2-e75fdb6fa133
 *** Element info: {Using=xpath, value=//*[@id="customer_login"]/div[2]/ul/li}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -45,8 +45,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'Nikolas-MacBook-Pro.local', ip: 'fe80:0:0:0:c03:e76f:1948:3b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9310, moz:profile: /tmp/rust_mozprofile.r1U6ry..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: e1d44b2b-8f50-49d6-8185-cd3...}
-Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10874, moz:profile: /tmp/rust_mozprofile.Plbhma..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.87-linuxkit-aufs, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: f07f7fba-5922-47f2-afc2-e75...}
+Session ID: f07f7fba-5922-47f2-afc2-e75fdb6fa133
 *** Element info: {Using=xpath, value=//*[@id="the-pi-hut"]/header/div/div/div[2]/div/ul/li[3]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -65,5 +65,5 @@ Session ID: e1d44b2b-8f50-49d6-8185-cd36a8548054
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy9.click(Unknown Source)
 	at com.dimaria95.testapp.HomePage.goToLoginPage(HomePage.java:38)
-	at com.dimaria95.testapp.LoginTest.testPositiveLogin(LoginTest.java:35)
+	at com.dimaria95.testapp.LoginTest.testPositiveLogin(LoginTest.java:36)
 
