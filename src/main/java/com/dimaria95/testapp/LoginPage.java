@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends BasePage {
-
+	
 	@FindBy(xpath = "//*[@id='customer_login']/div/h1")
 	WebElement loginPageTitle;
 

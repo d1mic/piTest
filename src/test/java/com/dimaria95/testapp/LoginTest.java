@@ -12,6 +12,7 @@ public class LoginTest extends BaseTest {
 	public ProductPage prodPage;
 	public boolean loggedIn = false;
 
+	/*
 	@BeforeMethod()
 	public void setupLogin() {
 		// Go to home page
@@ -51,7 +52,7 @@ public class LoginTest extends BaseTest {
 		Assert.assertTrue(homePage.isUrlCorrect());
 
 	}
-
+	
 	@Test
 	public void testNegativeLogin() {
 
@@ -70,5 +71,6 @@ public class LoginTest extends BaseTest {
 		Assert.assertTrue(homePage.isUrlCorrect());
 
 	}
+	*/
 
 }
