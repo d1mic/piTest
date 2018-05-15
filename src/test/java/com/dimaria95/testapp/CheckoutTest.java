@@ -11,7 +11,7 @@ public class CheckoutTest extends BaseTest {
 	public CheckoutPage checkPage;
 	public ShippingPage shippingPage;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void initEmptyCart() {
 
 		// go to home page
@@ -32,7 +32,7 @@ public class CheckoutTest extends BaseTest {
 		homePage = cartPage.goHome();
 	}
 
-	@Test
+	@Test(groups = { "checkout" , "smoke" })	
 	public void checkoutFlowTest() {
 		System.out.println("START checkoutFlowTest TEST");
 

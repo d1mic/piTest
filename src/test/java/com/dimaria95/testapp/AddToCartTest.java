@@ -10,7 +10,7 @@ public class AddToCartTest extends BaseTest {
 	public ProductPage prodPage;
 	public CartPage cartPage;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun= true)
 	public void initEmptyCart() {
 
 		// go to home page
@@ -30,7 +30,7 @@ public class AddToCartTest extends BaseTest {
 		homePage = cartPage.goHome();
 	}
 
-	@Test
+	@Test(groups = { "cart"  , "smoke"})
 	public void AddOneItemToCart() {
 
 		System.out.println("START AddOneItemToCart TEST");
@@ -59,8 +59,8 @@ public class AddToCartTest extends BaseTest {
 		Assert.assertTrue(homePage.isUrlCorrect());
 
 	}
-	/*
-	@Test
+
+	@Test(groups = { "cart" })
 	public void AddMultipleSameItemsToCart() {
 
 		System.out.println("START AddMultipleSameItemsToCart TEST");
@@ -91,8 +91,8 @@ public class AddToCartTest extends BaseTest {
 		Assert.assertTrue(homePage.isUrlCorrect());
 
 	}
-	*/
-	@Test
+
+	@Test(groups = { "cart"  })
 	public void AddMultipleDifferentItems() {
 
 		System.out.println("START AddMultipleDifferentItems TEST");
@@ -134,7 +134,7 @@ public class AddToCartTest extends BaseTest {
 
 	}
 
-	@Test
+	@Test(groups = { "cart" ,"smoke" })
 	public void removeOneItem() {
 
 		System.out.println("START removeOneItem TEST");

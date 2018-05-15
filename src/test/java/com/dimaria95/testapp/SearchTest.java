@@ -9,7 +9,7 @@ public class SearchTest extends BaseTest {
 	public HomePage homePage;
 	public SearchResPage searchPage;
 
-	@Test
+	@Test(groups = { "search" })
 	public void invalidSearch() {
 
 		System.out.println("START invalidSearch TEST");
@@ -27,7 +27,7 @@ public class SearchTest extends BaseTest {
 		Assert.assertEquals(searchPage.getNumOfResults(), 0);
 	}
 
-	@Test
+	@Test(groups = { "search", "smoke" })
 	public void priceSearch() {
 
 		System.out.println("START priceSearch TEST");
@@ -65,7 +65,7 @@ public class SearchTest extends BaseTest {
 
 	}
 
-	@Test
+	@Test(groups = { "smoke", "search" })
 	public void categorySearch() {
 
 		System.out.println("START categorySearch TEST");
