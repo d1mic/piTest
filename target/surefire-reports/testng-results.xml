@@ -2,100 +2,100 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="159218" started-at="2018-05-15T09:08:03Z" finished-at="2018-05-15T09:10:43Z">
+  <suite name="Command line suite" duration-ms="208750" started-at="2018-05-15T09:17:26Z" finished-at="2018-05-15T09:20:55Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="159218" started-at="2018-05-15T09:08:03Z" finished-at="2018-05-15T09:10:43Z">
+    <test name="Command line test" duration-ms="208750" started-at="2018-05-15T09:17:26Z" finished-at="2018-05-15T09:20:55Z">
       <class name="com.dimaria95.testapp.CheckoutTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="setupTest" is-config="true" duration-ms="15270" started-at="2018-05-15T11:09:23Z" finished-at="2018-05-15T11:09:38Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="setupTest" is-config="true" duration-ms="18703" started-at="2018-05-15T11:19:22Z" finished-at="2018-05-15T11:19:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="initEmptyCart" is-config="true" duration-ms="14351" started-at="2018-05-15T11:09:38Z" finished-at="2018-05-15T11:09:52Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="initEmptyCart" is-config="true" duration-ms="23423" started-at="2018-05-15T11:19:41Z" finished-at="2018-05-15T11:20:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="checkoutFlowTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="checkoutFlowTest" duration-ms="16135" started-at="2018-05-15T11:09:52Z" finished-at="2018-05-15T11:10:08Z">
+        <test-method status="PASS" signature="checkoutFlowTest()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="checkoutFlowTest" duration-ms="15859" started-at="2018-05-15T11:20:05Z" finished-at="2018-05-15T11:20:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutFlowTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="983" started-at="2018-05-15T11:10:08Z" finished-at="2018-05-15T11:10:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.CheckoutTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="2715" started-at="2018-05-15T11:20:20Z" finished-at="2018-05-15T11:20:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dimaria95.testapp.CheckoutTest -->
       <class name="com.dimaria95.testapp.SearchTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="setupTest" is-config="true" duration-ms="17299" started-at="2018-05-15T11:10:09Z" finished-at="2018-05-15T11:10:27Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="setupTest" is-config="true" duration-ms="11756" started-at="2018-05-15T11:20:23Z" finished-at="2018-05-15T11:20:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="categorySearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="categorySearch" duration-ms="3563" started-at="2018-05-15T11:10:27Z" finished-at="2018-05-15T11:10:30Z">
+        <test-method status="PASS" signature="categorySearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="categorySearch" duration-ms="3587" started-at="2018-05-15T11:20:35Z" finished-at="2018-05-15T11:20:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categorySearch -->
-        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1822" started-at="2018-05-15T11:10:30Z" finished-at="2018-05-15T11:10:32Z">
+        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="3800" started-at="2018-05-15T11:20:39Z" finished-at="2018-05-15T11:20:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method status="PASS" signature="invalidSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="invalidSearch" duration-ms="2289" started-at="2018-05-15T11:10:32Z" finished-at="2018-05-15T11:10:34Z">
+        <test-method status="PASS" signature="invalidSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="invalidSearch" duration-ms="2615" started-at="2018-05-15T11:20:42Z" finished-at="2018-05-15T11:20:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidSearch -->
-        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1593" started-at="2018-05-15T11:10:34Z" finished-at="2018-05-15T11:10:36Z">
+        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="2191" started-at="2018-05-15T11:20:45Z" finished-at="2018-05-15T11:20:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method status="PASS" signature="priceSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="priceSearch" duration-ms="3765" started-at="2018-05-15T11:10:36Z" finished-at="2018-05-15T11:10:40Z">
+        <test-method status="PASS" signature="priceSearch()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="priceSearch" duration-ms="5017" started-at="2018-05-15T11:20:47Z" finished-at="2018-05-15T11:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceSearch -->
-        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="2076" started-at="2018-05-15T11:10:40Z" finished-at="2018-05-15T11:10:42Z">
+        <test-method status="PASS" signature="goHome()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="goHome" is-config="true" duration-ms="1919" started-at="2018-05-15T11:20:52Z" finished-at="2018-05-15T11:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="tearDown" is-config="true" duration-ms="791" started-at="2018-05-15T11:10:42Z" finished-at="2018-05-15T11:10:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.SearchTest@180bc464]" name="tearDown" is-config="true" duration-ms="868" started-at="2018-05-15T11:20:54Z" finished-at="2018-05-15T11:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dimaria95.testapp.SearchTest -->
       <class name="com.dimaria95.testapp.AddToCartTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="setupTest" is-config="true" duration-ms="10849" started-at="2018-05-15T11:08:03Z" finished-at="2018-05-15T11:08:14Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="setupTest" is-config="true" duration-ms="16948" started-at="2018-05-15T11:17:26Z" finished-at="2018-05-15T11:17:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="4271" started-at="2018-05-15T11:08:14Z" finished-at="2018-05-15T11:08:18Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="4779" started-at="2018-05-15T11:17:43Z" finished-at="2018-05-15T11:17:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="AddMultipleDifferentItems()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="AddMultipleDifferentItems" duration-ms="10676" started-at="2018-05-15T11:08:18Z" finished-at="2018-05-15T11:08:29Z">
+        <test-method status="PASS" signature="AddMultipleDifferentItems()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="AddMultipleDifferentItems" duration-ms="19060" started-at="2018-05-15T11:17:48Z" finished-at="2018-05-15T11:18:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddMultipleDifferentItems -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="10019" started-at="2018-05-15T11:08:29Z" finished-at="2018-05-15T11:08:39Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="16072" started-at="2018-05-15T11:18:07Z" finished-at="2018-05-15T11:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="AddMultipleSameItemsToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="AddMultipleSameItemsToCart" duration-ms="8280" started-at="2018-05-15T11:08:39Z" finished-at="2018-05-15T11:08:47Z">
+        <test-method status="PASS" signature="AddMultipleSameItemsToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="AddMultipleSameItemsToCart" duration-ms="13476" started-at="2018-05-15T11:18:23Z" finished-at="2018-05-15T11:18:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddMultipleSameItemsToCart -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="5230" started-at="2018-05-15T11:08:47Z" finished-at="2018-05-15T11:08:53Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="7504" started-at="2018-05-15T11:18:37Z" finished-at="2018-05-15T11:18:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="AddOneItemToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="AddOneItemToCart" duration-ms="9759" started-at="2018-05-15T11:08:53Z" finished-at="2018-05-15T11:09:02Z">
+        <test-method status="PASS" signature="AddOneItemToCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="AddOneItemToCart" duration-ms="10285" started-at="2018-05-15T11:18:44Z" finished-at="2018-05-15T11:18:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddOneItemToCart -->
-        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="8510" started-at="2018-05-15T11:09:02Z" finished-at="2018-05-15T11:09:11Z">
+        <test-method status="PASS" signature="initEmptyCart()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="initEmptyCart" is-config="true" duration-ms="11837" started-at="2018-05-15T11:18:54Z" finished-at="2018-05-15T11:19:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initEmptyCart -->
-        <test-method status="PASS" signature="removeOneItem()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="removeOneItem" duration-ms="10586" started-at="2018-05-15T11:09:11Z" finished-at="2018-05-15T11:09:22Z">
+        <test-method status="PASS" signature="removeOneItem()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="removeOneItem" duration-ms="15217" started-at="2018-05-15T11:19:06Z" finished-at="2018-05-15T11:19:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeOneItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="tearDown" is-config="true" duration-ms="1085" started-at="2018-05-15T11:09:22Z" finished-at="2018-05-15T11:09:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dimaria95.testapp.AddToCartTest@1324409e]" name="tearDown" is-config="true" duration-ms="1102" started-at="2018-05-15T11:19:21Z" finished-at="2018-05-15T11:19:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -59,7 +59,7 @@ public class AddToCartTest extends BaseTest {
 		Assert.assertTrue(homePage.isUrlCorrect());
 
 	}
-
+	/*
 	@Test
 	public void AddMultipleSameItemsToCart() {
 
@@ -91,7 +91,7 @@ public class AddToCartTest extends BaseTest {
 		Assert.assertTrue(homePage.isUrlCorrect());
 
 	}
-
+	*/
 	@Test
 	public void AddMultipleDifferentItems() {
 

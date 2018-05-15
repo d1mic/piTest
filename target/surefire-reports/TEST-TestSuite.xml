@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="TestSuite" time="65.058" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="TestSuite" time="85.116" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.171-b11"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/nikoladimic/Desktop/test-app"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/nikoladimic/Desktop/piTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/nikoladimic/Desktop/test-app"/>
+    <property name="user.dir" value="/Users/nikoladimic/Desktop/piTest"/>
     <property name="java.runtime.version" value="1.8.0_171-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,12 +64,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="AddMultipleDifferentItems" time="10.677"/>
-  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="AddMultipleSameItemsToCart" time="8.28"/>
-  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="AddOneItemToCart" time="9.76"/>
-  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="removeOneItem" time="10.587"/>
-  <testcase classname="com.dimaria95.testapp.CheckoutTest" name="checkoutFlowTest" time="16.135"/>
-  <testcase classname="com.dimaria95.testapp.SearchTest" name="categorySearch" time="3.564"/>
-  <testcase classname="com.dimaria95.testapp.SearchTest" name="invalidSearch" time="2.289"/>
-  <testcase classname="com.dimaria95.testapp.SearchTest" name="priceSearch" time="3.766"/>
+  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="AddMultipleDifferentItems" time="19.062"/>
+  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="AddMultipleSameItemsToCart" time="13.476"/>
+  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="AddOneItemToCart" time="10.284"/>
+  <testcase classname="com.dimaria95.testapp.AddToCartTest" name="removeOneItem" time="15.216"/>
+  <testcase classname="com.dimaria95.testapp.CheckoutTest" name="checkoutFlowTest" time="15.858"/>
+  <testcase classname="com.dimaria95.testapp.SearchTest" name="categorySearch" time="3.59"/>
+  <testcase classname="com.dimaria95.testapp.SearchTest" name="invalidSearch" time="2.614"/>
+  <testcase classname="com.dimaria95.testapp.SearchTest" name="priceSearch" time="5.016"/>
 </testsuite>
