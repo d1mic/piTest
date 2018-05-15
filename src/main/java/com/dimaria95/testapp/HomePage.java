@@ -12,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//*[@id=\"the-pi-hut\"]/header/div/div/div[2]/div/ul/li[4]/a")
+	//@FindBy(how=How.CSS, using="a.cart-toggle")
 	WebElement cartButton;
 
 	@FindBy(xpath = "//*[@id=\"the-pi-hut\"]/header/div/div/div[2]/div/ul/li[3]")

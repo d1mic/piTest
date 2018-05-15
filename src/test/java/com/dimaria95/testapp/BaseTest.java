@@ -46,7 +46,7 @@ public class BaseTest {
 	public void setupTest() throws IOException {
 		this.loadProps();
 		driver = initDriver(new FirefoxOptions());
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		System.out.println("Before test");

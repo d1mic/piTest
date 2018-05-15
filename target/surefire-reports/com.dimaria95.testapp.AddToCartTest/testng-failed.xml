@@ -7,6 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="removeOneItem"/>
+          <include name="AddMultipleDifferentItems"/>
           <include name="AddOneItemToCart"/>
           <include name="setupTest"/>
           <include name="AddMultipleSameItemsToCart"/>

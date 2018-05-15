@@ -3,26 +3,21 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="com.dimaria95.testapp.LoginTest">
-        <methods>
-          <include name="testPositiveLogin"/>
-          <include name="setupLogin"/>
-          <include name="tearDown"/>
-          <include name="testNegativeLogin"/>
-          <include name="setupTest"/>
-        </methods>
-      </class> <!-- com.dimaria95.testapp.LoginTest -->
       <class name="com.dimaria95.testapp.CheckoutTest">
         <methods>
           <include name="initEmptyCart"/>
           <include name="tearDown"/>
+          <include name="checkoutFlowTest"/>
           <include name="setupTest"/>
         </methods>
       </class> <!-- com.dimaria95.testapp.CheckoutTest -->
       <class name="com.dimaria95.testapp.AddToCartTest">
         <methods>
           <include name="tearDown"/>
+          <include name="removeOneItem"/>
+          <include name="AddOneItemToCart"/>
           <include name="setupTest"/>
+          <include name="AddMultipleSameItemsToCart"/>
           <include name="initEmptyCart"/>
         </methods>
       </class> <!-- com.dimaria95.testapp.AddToCartTest -->

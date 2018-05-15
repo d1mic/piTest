@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [com.dimaria95.testapp.LoginTest]">
+<suite verbose="0" name="Failed suite [com.dimaria95.testapp.AddToCartTest]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="com.dimaria95.testapp.LoginTest">
+      <class name="com.dimaria95.testapp.AddToCartTest">
         <methods>
-          <include name="testPositiveLogin"/>
-          <include name="setupLogin"/>
           <include name="tearDown"/>
+          <include name="removeOneItem"/>
+          <include name="AddMultipleDifferentItems"/>
+          <include name="AddOneItemToCart"/>
           <include name="setupTest"/>
+          <include name="AddMultipleSameItemsToCart"/>
+          <include name="initEmptyCart"/>
         </methods>
-      </class> <!-- com.dimaria95.testapp.LoginTest -->
+      </class> <!-- com.dimaria95.testapp.AddToCartTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [com.dimaria95.testapp.LoginTest] -->
+</suite> <!-- Failed suite [com.dimaria95.testapp.AddToCartTest] -->
