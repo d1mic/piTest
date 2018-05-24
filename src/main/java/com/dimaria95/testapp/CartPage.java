@@ -8,8 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CartPage extends BasePage {
 
@@ -76,7 +74,7 @@ public class CartPage extends BasePage {
 	public CheckoutPage goToCheckout() {
 	
 		checkoutButton.click();
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		//WebDriverWait wait = new WebDriverWait(driver, 30);
 		//wait.until(ExpectedConditions.invisibilityOf(cartTitle));
 		
 		if (driver.findElement(By.xpath("//*[@id=\"bold-modal-first__window\"]/div[2]/a[2]")).isDisplayed()) {
