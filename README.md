@@ -1,8 +1,9 @@
-# piTest
+# :computer: piTest
+QA example for testing thepiehut website using Selenium and TestNG
 
 ## Overview 
 Tests are written in Java using Selenium and TestNG
-Browser: Mozilla Firefox.
+Browser: Mozilla Firefox. :mozzila
 This project tests the following:
 * Login 
 * Searching products
@@ -136,3 +137,8 @@ Before any test using the login - If logged in then log out
 3. Sign in with invalid credentials
 4. Check if error message is displayed correctly 
 5. Return to home page
+
+## Checkout test ( type: positive )
+Combines lot of the tests above and is best described trough this diagram: 
+
+
