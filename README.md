@@ -141,4 +141,4 @@ Before any test using the login - If logged in then log out
 ## Checkout test ( type: positive )
 Combines lot of the tests above and is best described trough this diagram: 
 
-
+![documentation/diagram](https://github.com/dimaria95/piTest/blob/master/documentation/diagram.png)
