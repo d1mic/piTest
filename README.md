@@ -1,6 +1,12 @@
 # :computer: piTest
 QA example for testing thepiehut website using Selenium and TestNG
 
+![GitHub last commit](https://img.shields.io/badge/last%20updated-May_2018-green.svg)
+![TestNg version](https://img.shields.io/badge/testng-6.9.8-green.svg)
+![Selenium version](https://img.shields.io/badge/selenium-3.11.0-green.svg)
+![TestNg version](https://img.shields.io/badge/maven-3.7.0-green.svg)
+
+
 ## Overview 
 Tests are written in Java using Selenium and TestNG
 Browser: Mozilla Firefox. :mozzila
